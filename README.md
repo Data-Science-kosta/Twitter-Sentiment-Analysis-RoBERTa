@@ -41,3 +41,25 @@ CLARIN.SI | doiSerbia
 :--------:|:---------:
 ![d1](https://github.com/Data-Science-kosta/Twitter-Sentiment-Analysis-RoBERTa/blob/main/garbage/lr_d1.png)   | ![d2](https://github.com/Data-Science-kosta/Twitter-Sentiment-Analysis-RoBERTa/blob/main/garbage/lr_d2.png)
 
+# Results
+// define your function for generating rotated text
+writeRotatedText = function(text) {
+  var ctx, canvas = document.createElement('canvas');
+  // I am using predefined dimensions so either make this part of the arguments or change at will 
+  canvas.width = 36;
+  canvas.height = 270;
+  ctx = canvas.getContext('2d');
+  ctx.font = '36pt Arial';
+  ctx.save();
+  ctx.translate(36,270);
+  ctx.rotate(-0.5*Math.PI);
+  ctx.fillStyle = '#000';
+  ctx.fillText(text , 0, 0);
+  ctx.restore();
+  return canvas.toDataURL();
+};
+
+// set the fitted width/height to a fraction for mitigating pixelation on print/zoom
+var tableBody = [
+ [{image: writeRotatedText('I am rotated'), fit:[7,53], alignment: 'center'}]
+];
