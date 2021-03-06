@@ -29,4 +29,6 @@ CLARIN.SI | doiSerbia
 ![d1](https://github.com/Data-Science-kosta/Twitter-Sentiment-Analysis-RoBERTa/blob/main/garbage/d1.png)   | ![d2](https://github.com/Data-Science-kosta/Twitter-Sentiment-Analysis-RoBERTa/blob/main/garbage/d2.png)
 
 # Model
+Since the datasets are relatively small we will be using pretrained multinigual RoBERTa based language model [XLM-R](https://ai.facebook.com/blog/-xlm-r-state-of-the-art-cross-lingual-understanding-through-self-supervision/) and fine tune it for this task.<br />
+![model](https://github.com/Data-Science-kosta/Twitter-Sentiment-Analysis-RoBERTa/blob/main/garbage/model.png)
 
