@@ -26,6 +26,7 @@ You first need to create developer account for Twitter API. After you file in a 
 
 CLARIN.SI | doiSerbia
 :--------:|:---------:
-<img src="garbage/d1.png" width="800" height="150"/>  | <img src="garbage/d2.png" width="800" height="150"/>
+![d1](https://github.com/Data-Science-kosta/Twitter-Sentiment-Analysis-RoBERTa/blob/main/garbage/d1.png)   | ![d2](https://github.com/Data-Science-kosta/Twitter-Sentiment-Analysis-RoBERTa/blob/main/garbage/d2.png)
+
 # Model
 
