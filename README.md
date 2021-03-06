@@ -22,7 +22,8 @@ You first need to create developer account for Twitter API. After you file in a 
 * A lot of tweets are usually retweets, that means that they contain 'RT @tweet_user' keywords, since 'RT @' is of no use it is replaces by '@'. ('@' is kept as indicator of tweet_user, because we will be removing them in the following steps).
 * All usernames are removed. Usernames are words that start with '@'.
 * Dealing with hashtags: Hashtag symbol '#' is removed, but the words that follow that symbol are kept, since they usually contain a lot of useful information (they are usualy compressed representation of the tweet). Since those words are connected with '_' character, this character is converted to blank space ' ' character.
-* Datasets are finally splitted into train, val and test sets (80%, 10% and 10%) and schuffled randomly.<br />
+* Datasets are finally splitted into train, val and test sets (80%, 10% and 10%) and schuffled randomly.<br /
+
 CLARIN.SI | doiSerbia
 :--------:|:---------:
 ![d1](https://github.com/Data-Science-kosta/Twitter-Sentiment-Analysis-RoBERTa/blob/main/garbage/d1.png)   | ![d2](https://github.com/Data-Science-kosta/Twitter-Sentiment-Analysis-RoBERTa/blob/main/garbage/d2.png)
