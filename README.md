@@ -115,6 +115,8 @@ CLARIN.SI | doiSerbia
 
 # Confusion matrix for doiSerbia dataset
 
-![d1](https://github.com/Data-Science-kosta/Twitter-Sentiment-Analysis-RoBERTa/blob/main/garbage/cm_d2.png) 
+<p align="left">
+<img src="garbage/cm_d2.png" width="500" height="300"/>
+</p>
 
 
