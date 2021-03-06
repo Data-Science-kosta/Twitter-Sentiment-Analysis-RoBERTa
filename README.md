@@ -116,7 +116,7 @@ CLARIN.SI | doiSerbia
 # Confusion matrix for doiSerbia dataset
 
 <p align="left">
-<img src="garbage/cm_d2.png" width="500" height="300"/>
+<img src="garbage/cm_d2.png" width="300" height="300"/>
 </p>
 
 
