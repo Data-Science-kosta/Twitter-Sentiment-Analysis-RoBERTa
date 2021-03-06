@@ -124,6 +124,6 @@ Self-attention matrix for the first layer (matricies for other layers are availa
 Tweet: `A ni nije objavio celo pismo. Sramno gaženje prema onome šta su predstavljali`
 
 <p align="left">
-<img src="garbage/attention_d2.png" width="400" height="300"/>
+<img src="garbage/att_l0_d2.png" width="400" height="300"/>
 </p>
 
