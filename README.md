@@ -42,9 +42,6 @@ CLARIN.SI | doiSerbia
 ![d1](https://github.com/Data-Science-kosta/Twitter-Sentiment-Analysis-RoBERTa/blob/main/garbage/lr_d1.png)   | ![d2](https://github.com/Data-Science-kosta/Twitter-Sentiment-Analysis-RoBERTa/blob/main/garbage/lr_d2.png)
 
 # Results
-dataset   | my result | similar work 
-CLARIN.SI | 63%       | 55.9%
-doiSerbia | 74%       | 69.693%
 
 <table>
     <tbody>
