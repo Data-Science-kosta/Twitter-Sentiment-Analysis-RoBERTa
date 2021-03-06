@@ -116,7 +116,14 @@ CLARIN.SI | doiSerbia
 # Confusion matrix for doiSerbia dataset
 
 <p align="left">
-<img src="garbage/cm_d2.png" width="300" height="300"/>
+<img src="garbage/cm_d2.png" width="400" height="300"/>
 </p>
 
+# Self-attention for doiSerbia dataset
+Self-attention matrix for the first layer (matricies for other layers are available in ):
+Tweet: `A ni nije objavio celo pismo. Sramno gaženje prema onome šta su predstavljali`
+
+<p align="left">
+<img src="garbage/attention_d2.png" width="400" height="300"/>
+</p>
 
