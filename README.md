@@ -49,67 +49,67 @@ doiSerbia | 74%       | 69.693%
 <table>
     <tbody>
         <tr>
-          <td>
-            <td>
-          <td colspan = 2>
+          <td align = 'center'>
+            </td>
+          <td colspan = 2  align = 'center'>
             CLARIN.SI
            </td>
-          <td>
+          <td colspan = 2  align = 'center'>
             doiSerbia
            </td>
         </tr>
         <tr>
-          <td>
-            <td>
-          <td>
+          <td  align = 'center'>
+            </td>
+          <td  align = 'center'>
             my result
            </td>
-          <td>
+          <td  align = 'center'>
             similar work
           </td>
-          <td>
+          <td  align = 'center'>
             my result
            </td>
-          <td>
+          <td align = 'center'>
             similar work
            </td>
         </tr>
        <tr>
-         <td>
+         <td  align = 'center'>
            accuracy
            </td>
-         <td>
+         <td  align = 'center'>
+           <b>
            63%
+            </b>
            </td>
-         <td>
-           59.9%
+         <td  align = 'center'>
+           55.9%
            </td>
-         <td>
+         <td  align = 'center'>
+           <b>
            74%
+             </b>
            </td>
-         <td>
-           69.9%
+         <td  align = 'center'>
+           69.693%
            </td>
          </tr>
        <tr>
-         <td>
+         <td align = 'center'>
            size
            </td>
-         <td>
-           20000
+         <td  align = 'center'>
+           27439
            </td>
-         <td>
-           190000
+         <td align = 'center'>
+           193827
            </td>
-         <td>
-           1000
+         <td align = 'center'>
+           1152
            </td>
-         <td>
-           4000
+         <td align = 'center'>
+           7663
            </td>
-
-         </tr>
-      
-           
     </tbody>
 </table>
