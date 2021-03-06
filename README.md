@@ -25,5 +25,5 @@ You first need to create developer account for Twitter API. After you file in a 
 * Datasets are finally splitted into train, val and test sets (80%, 10% and 10%) and schuffled randomly.
 CLARIN.SI | doiSerbia
 :--------:|:---------:
-![d1]()   | ![d2]()
+![d1](https://github.com/Data-Science-kosta/Twitter-Sentiment-Analysis-RoBERTa/blob/main/garbage/d1.png)   | ![d2](https://github.com/Data-Science-kosta/Twitter-Sentiment-Analysis-RoBERTa/blob/main/garbage/d2.png)
 
