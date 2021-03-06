@@ -56,19 +56,67 @@ doiSerbia | 74%       | 69.693%
     </thead>
     <tbody>
         <tr>
-            <td rowspan=4>L1 Name</td>
-            <td rowspan=2>L2 Name A</td>
-            <td>L3 Name A</td>
+          <td>
+            <td>
+          <td colspan = 2>
+            CLARIN.SI
+           </td>
+          <td>
+            doiSerbia
+           </td>
         </tr>
         <tr>
-            <td>L3 Name B</td>
+          <td>
+            <td>
+          <td>
+            my result
+           </td>
+          <td>
+            similar work
+          </td>
+          <td>
+            my result
+           </td>
+          <td>
+            similar work
+           </td>
         </tr>
-        <tr>
-            <td rowspan=2>L2 Name B</td>
-            <td>L3 Name C</td>
-        </tr>
-        <tr>
-            <td>L3 Name D</td>
-        </tr>
+       <tr>
+         <td>
+           accuracy
+           </td>
+         <td>
+           63%
+           </td>
+         <td>
+           59.9%
+           </td>
+         <td>
+           74%
+           </td>
+         <td>
+           69.9%
+           </td>
+         </tr>
+       <tr>
+         <td>
+           size
+           </td>
+         <td>
+           20000
+           </td>
+         <td>
+           190000
+           </td>
+         <td>
+           1000
+           </td>
+         <td>
+           4000
+           </td>
+
+         </tr>
+      
+           
     </tbody>
 </table>
