@@ -94,7 +94,7 @@ CLARIN.SI | doiSerbia
          </tr>
        <tr>
          <td align = 'center'>
-           size
+           data size
            </td>
          <td  align = 'center'>
            27439
