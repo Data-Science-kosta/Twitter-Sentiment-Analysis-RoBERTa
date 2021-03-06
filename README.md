@@ -29,7 +29,7 @@ CLARIN.SI | doiSerbia
 ![d1](https://github.com/Data-Science-kosta/Twitter-Sentiment-Analysis-RoBERTa/blob/main/garbage/d1.png)   | ![d2](https://github.com/Data-Science-kosta/Twitter-Sentiment-Analysis-RoBERTa/blob/main/garbage/d2.png)
 
 # Model
-Since the datasets are relatively small we will be using pretrained multinigual RoBERTa based language model [XLM-R](https://ai.facebook.com/blog/-xlm-r-state-of-the-art-cross-lingual-understanding-through-self-supervision/) and fine tune it for this task.<br />
+Since the datasets are relatively small we will be using pretrained multinigual RoBERTa based language model [XLM-R](https://ai.facebook.com/blog/-xlm-r-state-of-the-art-cross-lingual-understanding-through-self-supervision/) and fine tune it for this task. XLM-Roberta Sentence Piece tokenizer is used to tokenize the tweets.<br />
 
 <p align="center">
 <img src="garbage/model.png" width="500" height="300"/>
@@ -112,5 +112,9 @@ CLARIN.SI | doiSerbia
 :--------:|:---------:
 ![d1](https://github.com/Data-Science-kosta/Twitter-Sentiment-Analysis-RoBERTa/blob/main/garbage/lr_d1.png)   | ![d2](https://github.com/Data-Science-kosta/Twitter-Sentiment-Analysis-RoBERTa/blob/main/garbage/lr_d2.png)
 ![d1](https://github.com/Data-Science-kosta/Twitter-Sentiment-Analysis-RoBERTa/blob/main/garbage/acc_d1.png)   | ![d2](https://github.com/Data-Science-kosta/Twitter-Sentiment-Analysis-RoBERTa/blob/main/garbage/acc_d2.png)
+
+# Confusion matrix for doiSerbia dataset
+
+![d1](https://github.com/Data-Science-kosta/Twitter-Sentiment-Analysis-RoBERTa/blob/main/garbage/cm_d2.png) 
 
 
