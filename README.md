@@ -120,7 +120,7 @@ CLARIN.SI | doiSerbia
 </p>
 
 # Self-attention for doiSerbia dataset
-Self-attention matrix for the first layer (matricies for other layers are available in ):<br />
+Self-attention matrix for the first layer (matricies for other layers are available in `checkpoints/dataset2/best/attentions`):<br />
 Tweet: `A ni nije objavio celo pismo. Sramno gaženje prema onome šta su predstavljali`
 
 <p align="left">
