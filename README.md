@@ -32,6 +32,6 @@ CLARIN.SI | doiSerbia
 Since the datasets are relatively small we will be using pretrained multinigual RoBERTa based language model [XLM-R](https://ai.facebook.com/blog/-xlm-r-state-of-the-art-cross-lingual-understanding-through-self-supervision/) and fine tune it for this task.<br />
 
 <p align="center">
-<img src="garbage/model.png" width="600" height="400"/>
+<img src="garbage/model.png" width="500" height="300"/>
 </p>
 
