@@ -28,3 +28,5 @@ CLARIN.SI | doiSerbia
 :--------:|:---------:
 ![d1](https://github.com/Data-Science-kosta/Twitter-Sentiment-Analysis-RoBERTa/blob/main/garbage/d1.png)   | ![d2](https://github.com/Data-Science-kosta/Twitter-Sentiment-Analysis-RoBERTa/blob/main/garbage/d2.png)
 
+# Model
+
