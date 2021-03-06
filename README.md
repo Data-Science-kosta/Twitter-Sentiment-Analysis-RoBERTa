@@ -111,7 +111,6 @@ Since the language model is pretrained and the Linear classifier has no 'knowled
 CLARIN.SI | doiSerbia
 :--------:|:---------:
 ![d1](https://github.com/Data-Science-kosta/Twitter-Sentiment-Analysis-RoBERTa/blob/main/garbage/lr_d1.png)   | ![d2](https://github.com/Data-Science-kosta/Twitter-Sentiment-Analysis-RoBERTa/blob/main/garbage/lr_d2.png)
-:---------|:----------:
 ![d1](https://github.com/Data-Science-kosta/Twitter-Sentiment-Analysis-RoBERTa/blob/main/garbage/acc_d1.png)   | ![d2](https://github.com/Data-Science-kosta/Twitter-Sentiment-Analysis-RoBERTa/blob/main/garbage/acc_d2.png)
 
 
