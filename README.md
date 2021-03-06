@@ -34,4 +34,10 @@ Since the datasets are relatively small we will be using pretrained multinigual 
 <p align="center">
 <img src="garbage/model.png" width="500" height="300"/>
 </p>
+# Training 
+Since the language model is pretrained and the Linear classifier has no 'knowledge' (starts with random weights), at the start of the training the language model will be frozen and classifier will be trained with large learning rate for few epochs. After that we will unfreeze the language model and train the complete model with small learning, because we do not want to let our language model quickly 'forget' what it already 'knows' (this can easily lead to heavy overfitting). To make the learning more stable [Linear scheduler with warmup](https://huggingface.co/transformers/main_classes/optimizer_schedules.html#transformers.get_linear_schedule_with_warmup) is implemented in both frozen and fine-tuning regime. Also [AdamW](https://huggingface.co/transformers/main_classes/optimizer_schedules.html#transformers.AdamW) optimizer is used, which is an improved version of Adam optimizer that does not keep track of regularization term when calculating momentum (you can find an explanation [here](https://towardsdatascience.com/why-adamw-matters-736223f31b5d)). This is important because the models are trained with relatively large weight decay.<br />
+
+CLARIN.SI | doiSerbia
+:--------:|:---------:
+![d1](https://github.com/Data-Science-kosta/Twitter-Sentiment-Analysis-RoBERTa/blob/main/garbage/lr_d1.png)   | ![d2](https://github.com/Data-Science-kosta/Twitter-Sentiment-Analysis-RoBERTa/blob/main/garbage/lr_d2.png)
 
