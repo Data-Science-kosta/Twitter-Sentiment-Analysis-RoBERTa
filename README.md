@@ -15,10 +15,10 @@ Since the datasets contain only tweet IDs, and not the text of the tweets, we ne
 You first need to create developer account for Twitter API. After you file in a request you will need to wait a few days for approval. When your request is approved you have to download **API key, API secret key, Access token and Access token secret**. My keys are placed in *keys.txt* file which will not be provided due to privacy and security issues.
 
 # Preprocessing
-1.(CLARIN.SI only) There are a lot of NaN rows, because multiple tweets are deleted, so they are dropped.
-2.(CLARIN.SI only) Because some of the tweets were annotated multiple times by the same annotator, there can be duplicated rows. We first need to drop all rows, but one, with duplicated tweets where *HandLabel* is the same. After that we drop all duplicated tweets, since they all have different *HandLabel* and we do not know which one is correct. It would have been wrong if we dropped all the duplicates at once, without looking at the *HandLabel*, because we would threw away the highest quality data (the tweets which were labeled same multiple times).
-3. All tweets are converted to lowercase
-4. All links were removed since they do not contain any relevant information for this task and also '[video]' and '{link}' strings were removed because Twitter sometimes converts links to to these keywords.
-5. A lot of tweets are usually retweets, that means that they contain 'RT @tweet_user' keywords, since 'RT @' is of no use it is replaces by '@'. ('@' is kept as indicator of tweet_user, because we will be removing them in the following steps).
-6. All usernames are removed. Usernames are words that start with '@'.
-7. Dealing with hashtags: Hashtag symbol '#' is removed, but the words that follow that symbol are kept, since they usually contain a lot of useful information (they are usualy compressed representation of the tweet). Since those words are connected with '_' character, this character is converted to blank space ' ' character.
+* (CLARIN.SI only) There are a lot of NaN rows, because multiple tweets are deleted, so they are dropped.
+* (CLARIN.SI only) Because some of the tweets were annotated multiple times by the same annotator, there can be duplicated rows. We first need to drop all rows, but one, with duplicated tweets where *HandLabel* is the same. After that we drop all duplicated tweets, since they all have different *HandLabel* and we do not know which one is correct. It would have been wrong if we dropped all the duplicates at once, without looking at the *HandLabel*, because we would threw away the highest quality data (the tweets which were labeled same multiple times).
+* All tweets are converted to lowercase
+* All links were removed since they do not contain any relevant information for this task and also '[video]' and '{link}' strings were removed because Twitter sometimes converts links to to these keywords.
+* A lot of tweets are usually retweets, that means that they contain 'RT @tweet_user' keywords, since 'RT @' is of no use it is replaces by '@'. ('@' is kept as indicator of tweet_user, because we will be removing them in the following steps).
+* All usernames are removed. Usernames are words that start with '@'.
+* Dealing with hashtags: Hashtag symbol '#' is removed, but the words that follow that symbol are kept, since they usually contain a lot of useful information (they are usualy compressed representation of the tweet). Since those words are connected with '_' character, this character is converted to blank space ' ' character.
