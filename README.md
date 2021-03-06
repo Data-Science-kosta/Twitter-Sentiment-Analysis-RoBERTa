@@ -26,6 +26,6 @@ You first need to create developer account for Twitter API. After you file in a 
 
 CLARIN.SI | doiSerbia
 :--------:|:---------:
-<img src="garbage/d1.png" width="700" height="250"/>  | <img src="garbage/d2.png" width="700" height="250"/>
+<img src="garbage/d1.png" width="800" height="150"/>  | <img src="garbage/d2.png" width="800" height="150"/>
 # Model
 
